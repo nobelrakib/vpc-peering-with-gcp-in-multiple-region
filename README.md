@@ -34,7 +34,7 @@ Now we have to launch two vm in two vpc. Here instance-1 is in vpc-1 and instanc
 
 Lets ssh instance-1 and try to ping instance-2 which is in different vpc
 
-<img width="713" alt="security group" src="https://github.com/nobelrakib/vpc-peering-with-gcp-in-multiple-region/assets/53372696/55b66064-c63d-4287-85bb-ff14d8667f6a">
+<img width="953" alt="ping-not-working" src="https://github.com/nobelrakib/vpc-peering-with-gcp-in-multiple-region/assets/53372696/f142ef4b-07ca-44e3-bf68-29c2f6cdb8d6">
 
 We are not getting any response. It is as expected as two vms are in two different vpc.
 
